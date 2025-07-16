@@ -1,5 +1,5 @@
 // src/main/java/com/yourteam/directory/Business.java
-package com.team1.directory;
+package com.team1.directory; 
 
 public class Business {
     private String name;
