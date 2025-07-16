@@ -1,4 +1,4 @@
-name,address,phone,hours,website,category
-Joes Coffee,123 Main St,(123) 456-7890,7 AM–5 PM,www.joescoffee.com,Café
-Bright Salon,456 Elm Ave,(234) 567-8901,9 AM–7 PM,www.brightsalon.com,Salon
-Green Eats,789 Oak Blvd,(345) 678-9012,11 AM–9 PM,www.greeneats.com,Restaurant
+name,address,phone,hours,website,category,rating
+Joes Coffee,123 Main St,(123) 456-7890,7 AM to 5 PM,www.joescoffee.com,Cafe,5
+Bright Salon,456 Elm Ave,(234) 567-8901,9 AM to 7 PM,www.brightsalon.com,Salon,5
+Green Eats,789 Oak Blvd,(345) 678-9012,11 AM to 9 PM,www.greeneats.com,Restaurant,4
