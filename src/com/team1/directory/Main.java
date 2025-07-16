@@ -20,7 +20,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         while (true) {
             System.out.println("\n--- Local Business Directory ---");
-            System.out.println("1) List all   2) Search by name   3) Filter by category   0) Exit");
+            System.out.println("1) List all   2) Search by name   3) Filter by category  4) Filter by rating   0) Exit");
             System.out.print("Choose an option: ");
             String choice = in.nextLine().trim();
 
@@ -40,6 +40,11 @@ public class Main {
                     System.out.print("Enter category: ");
                     List<Business> byCat = dm.filterByCategory(in.nextLine());
                     byCat.forEach(b -> { System.out.println(b + "\n"); });
+                    break;
+                case "4":
+                    System.out.print("Enter rating (1-5): ");
+                    List<Business> byRating = dm.searchByRating(in.nextLine());
+                    byRating.forEach(b -> {System.out.println(b + "\n"); });
                     break;
                 case "0":
                     System.out.println("Goodbye!");
