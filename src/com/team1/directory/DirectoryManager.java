@@ -16,14 +16,15 @@ public class DirectoryManager {
             String line = reader.readLine(); // skip header
             while ((line = reader.readLine()) != null) {
                 String[] cols = line.split(",", -1);
-                if (cols.length < 6) continue;
+                if (cols.length < 7) continue;
                 businesses.add(new Business(
                     cols[0].trim(),
                     cols[1].trim(),
                     cols[2].trim(),
                     cols[3].trim(),
                     cols[4].trim(),
-                    cols[5].trim()
+                    cols[5].trim(),
+                    cols[6].trim()
                 ));
             }
         }
@@ -48,5 +49,12 @@ public class DirectoryManager {
     /** Simple getter for all loaded entries. */
     public List<Business> getAll() {
         return Collections.unmodifiableList(businesses);
+    }
+
+    /** Return all businesses with the givin rating (case-insensitive). */
+    public List<Business> searchByRating(String rating){
+        return businesses.stream()
+            .filter(b-> b.getRating().contains(rating))
+            .collect(Collectors.toList());
     }
 }
