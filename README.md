@@ -84,16 +84,17 @@ Push to the branch
 ![Menu](images/Menu.PNG)
 
 ### List All
-![List All](images/ListAll.PNG)
+![List All](images/Listall.PNG)
 
 ### Search by Name
-![Search by Name](images/SearchName.PNG)
+![Search by Name](images/Searchname.PNG)
 
 ### Filter by Category
 ![Filter by Category](images/Category.PNG)
 
 ### Filter by Rating
 ![Filter by Rating](images/Rating.PNG)
+
 
 📄 Disclaimer
 
