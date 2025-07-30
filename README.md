@@ -13,7 +13,6 @@ A Java-based command-line application that allows users to view and search a lis
 
 ---
 
-<details> <summary>Click to expand the Project Structure snippet</summary>
 
 ## 🧰 Project Structure
 
@@ -36,7 +35,7 @@ CSE1325-ProjectOJ/
 └── README.md                 # This file
 
 
-</details>
+
 ```
 
 
