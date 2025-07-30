@@ -13,24 +13,36 @@ A Java-based command-line application that allows users to view and search a lis
 
 ---
 
+<details> <summary>Click to expand the Project Structure snippet</summary>
+
 ## 🧰 Project Structure
 
+```plaintext
 CSE1325-ProjectOJ/
-├── bin/ # Compiled .class files (ignored by .gitignore)
+├── bin/                      # Compiled .class files (ignored by .gitignore)
 ├── src/
-│ └── com/team1/directory/
-│ ├── Main.java # Program entry point
-│ ├── Business.java # Business model
-│ ├── Directory.java # Core logic and search
-│ └── … # Additional helper classes
-├── businesses.csv # Business data
-├── images/ # Screenshots folder
-│ ├── Menu.PNG
-│ ├── Listall.PNG
-│ ├── Searchname.PNG
-│ ├── Category.PNG
-│ └── Rating.PNG
-└── README.md # This file
+│   └── com/team1/directory/
+│       ├── Main.java         # Program entry point
+│       ├── Business.java     # Business model
+│       ├── Directory.java    # Core logic and search
+│       └── …                 # Additional helper classes
+├── businesses.csv            # Business data
+├── images/                   # Screenshots folder
+│   ├── Menu.PNG
+│   ├── Listall.PNG
+│   ├── Searchname.PNG
+│   ├── Category.PNG
+│   └── Rating.PNG
+└── README.md                 # This file
+
+
+</details>
+
+**Key steps:**
+
+1. **Start** with three backticks <code>```</code> (optionally followed by `plaintext`).
+2. **Paste** your ASCII tree exactly as you want it.
+3. **End** with three backticks <code>```</code>.
 
 
 ## 🖼️ Screenshots of Directory Functionality
