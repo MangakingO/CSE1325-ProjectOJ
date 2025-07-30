@@ -3,7 +3,22 @@
 A Java-based command-line application that allows users to view and search a list of businesses from a CSV file.
 
 ---
+## 📝 Project Overview
 
+This application was developed for **CSE1325: Object-Oriented Programming** at UTA to demonstrate core OOP concepts in Java:
+
+- **`Business` class** encapsulates each business’s data (name, address, phone, hours, website, category, rating).  
+- **`Directory` class** manages a collection of `Business` objects: loading from CSV, storing in a list, and providing search/filter methods.  
+- **`Main` class** provides a menu-driven CLI for user interaction.  
+
+Key learning outcomes:
+- **Encapsulation & Classes**: Fields, constructors, getters/setters  
+- **File I/O**: Parsing `businesses.csv` into objects  
+- **Collections & Iteration**: Storing and traversing lists of objects  
+- **Modularity**: Separating data model, business logic, and UI  
+- **User Interaction**: CLI that lists all entries, searches by name, filters by category or rating, and exits cleanly
+
+  
 ## 🛠️ Features
 
 - ✅ Load business data from `businesses.csv`  
