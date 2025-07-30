@@ -90,7 +90,7 @@ Push to the branch
 ![Search by Name](images/Searchname.PNG)
 
 ### Filter by Category
-![Filter by Category](images/Category.PNG)
+![Filter by Category](https://github.com/MangakingO/CSE1325-ProjectOJ/blob/main/images/Category.PNG)
 
 ### Filter by Rating
 ![Filter by Rating](images/Rating.PNG)
