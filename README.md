@@ -78,16 +78,22 @@ Push to the branch
 
     Open a pull request
 
-🖼️ Screenshots
-Menu
+## 🖼️ Screenshots
 
-List All
+### Menu
+![Menu](./images/Menu.PNG)
 
-Search by Name
+### List All
+![List All](./images/Listall.PNG)
 
-Filter by Category
+### Search by Name
+![Search by Name](./images/Searchname.PNG)
 
-Filter by Rating
+### Filter by Category
+![Filter by Category](./images/Category.PNG)
+
+### Filter by Rating
+![Filter by Rating](./images/Rating.PNG)
 
 📄 Disclaimer
 
