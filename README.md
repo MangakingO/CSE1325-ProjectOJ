@@ -6,10 +6,10 @@ A Java-based command-line application that allows users to view and search a lis
 
 ## 🛠️ Features
 
-- ✅ Load business data from `businesses.csv`
-- 🔍 Search by **name**, **city**, or **category**
-- 📋 View all business entries
-- 🧭 Simple, menu-driven CLI interface
+- ✅ Load business data from `businesses.csv`  
+- 🔍 Search by **name**, **city**, or **category**  
+- 📋 View all business entries  
+- 🧭 Simple, menu-driven CLI interface  
 
 ---
 
@@ -24,6 +24,12 @@ CSE1325-ProjectOJ/
 │ ├── Directory.java # Core logic and search
 │ └── ... # Additional helper classes
 ├── businesses.csv # Business data
+├── images/ # Put your screenshots here
+│ ├── Menu.PNG
+│ ├── Listall.PNG
+│ ├── Searchname.PNG
+│ ├── Category.PNG
+│ └── Rating.PNG
 └── README.md # Project info and instructions
 
 
@@ -46,8 +52,6 @@ javac -d bin src/com/team1/directory/*.java
 java -cp bin com.team1.directory.Main
 
 📦 .gitignore Recommendation
-
-To keep your repo clean, add a .gitignore file in the root:
 
 # Ignore compiled files
 *.class
@@ -73,6 +77,17 @@ Push to the branch
     git push origin feature/myFeature
 
     Open a pull request
+
+🖼️ Screenshots
+Menu
+
+List All
+
+Search by Name
+
+Filter by Category
+
+Filter by Rating
 
 📄 Disclaimer
 
