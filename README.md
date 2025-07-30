@@ -1,66 +1,83 @@
-# CSE1325 Project: Business Directory Search
+# 📂 CSE1325 Business Directory Project
 
-This Java project reads a list of businesses from `businesses.csv` and provides a menu-driven interface to search and filter business entries based on criteria such as name, city, and category.
+A Java-based command-line application that allows users to view and search a list of businesses from a CSV file.
 
 ---
 
-## Prerequisites
+## 🛠️ Features
 
-- Java Development Kit (JDK) 8 or higher  
-- Git (optional, for cloning the repo)
+- ✅ Load business data from `businesses.csv`
+- 🔍 Search by **name**, **city**, or **category**
+- 📋 View all business entries
+- 🧭 Simple, menu-driven CLI interface
 
-## Project Structure
+---
+
+## 🧰 Project Structure
 
 CSE1325-ProjectOJ/
-├── bin/ # Compiled classes (should be ignored via .gitignore)
+├── bin/ # Compiled .class files (ignored in .gitignore)
 ├── src/
 │ └── com/team1/directory/
-│ ├── Main.java # Entry point
+│ ├── Main.java # Program entry point
 │ ├── Business.java # Business model
-│ ├── Directory.java # Directory operations
-│ └── ... # Other source files
-├── businesses.csv # Data file with business records
-└── README.md # This file
+│ ├── Directory.java # Core logic and search
+│ └── ... # Additional helper classes
+├── businesses.csv # Business data
+└── README.md # Project info and instructions
 
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/MangakingO/CSE1325-ProjectOJ.git
-   cd CSE1325-ProjectOJ
+### 1. Clone the Repo
 
-    Set up a .gitignore to exclude compiled classes and IDE files:
+```bash
+git clone https://github.com/MangakingO/CSE1325-ProjectOJ.git
+cd CSE1325-ProjectOJ
 
-    /bin/
-    *.class
-
-Compilation
-
-Compile the Java source files and place the class files into the bin/ directory:
+2. Compile the Program
 
 javac -d bin src/com/team1/directory/*.java
 
-Running the Application
-
-Run the Main class from the bin/ directory:
+3. Run the Program
 
 java -cp bin com.team1.directory.Main
 
-The application will present a menu to:
+📦 .gitignore Recommendation
 
-    List all businesses
+To keep your repo clean, add a .gitignore file in the root:
 
-    Search by name, city, or category
+# Ignore compiled files
+*.class
 
-    Exit the program
+# Ignore bin folder contents but keep structure
+!bin/
+!bin/**/
 
-Build Automation (Optional)
+🤝 Contributing
 
-For larger teams or more complex setups, consider adding a build tool:
+    Fork the repository
 
-    Maven: Create a pom.xml and use mvn compile / mvn exec:java
+    Create your feature branch
 
-    Gradle: Create a build.gradle and use gradle build / gradle run
+git checkout -b feature/myFeature
+
+Commit your changes
+
+git commit -m "Add feature"
+
+Push to the branch
+
+    git push origin feature/myFeature
+
+    Open a pull request
+
+📄 Disclaimer
+
+This project was created by Oscar Barrios Jimenez and Jose Rojas for educational purposes as part of CSE1325: Object-Oriented Programming at the University of Texas at Arlington (UTA).
+
+All code and assets are original or adapted under academic fair use. Redistribution, reproduction, or reuse of this codebase without explicit permission is strictly prohibited.
+
+© 2025 Oscar Barrios Jimenez & Jose Rojas. All rights reserved.
