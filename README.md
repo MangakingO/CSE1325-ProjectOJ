@@ -37,12 +37,8 @@ CSE1325-ProjectOJ/
 
 
 </details>
+```
 
-**Key steps:**
-
-1. **Start** with three backticks <code>```</code> (optionally followed by `plaintext`).
-2. **Paste** your ASCII tree exactly as you want it.
-3. **End** with three backticks <code>```</code>.
 
 
 ## 🖼️ Screenshots of Directory Functionality
