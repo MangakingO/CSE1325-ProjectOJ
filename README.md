@@ -57,5 +57,3 @@ This project was created by Oscar Barrios Jimenez and Jose Rojas for educational
 All code and assets are original or adapted under academic fair use. Redistribution or reuse without explicit permission is prohibited.
 
 © 2025 Oscar Barrios Jimenez & Jose Rojas. All rights reserved.
-
-::contentReference[oaicite:0]{index=0}
