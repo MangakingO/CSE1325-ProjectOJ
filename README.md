@@ -1,4 +1,4 @@
-## 🖼️ Screenshots
+## 🖼️ Screenshots of Directory Functionality
 
 ### Menu
 ![Menu](images/Menu.PNG)
