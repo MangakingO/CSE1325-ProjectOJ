@@ -81,19 +81,19 @@ Push to the branch
 ## 🖼️ Screenshots
 
 ### Menu
-![Menu](./images/Menu.PNG)
+![Menu](images/Menu.PNG)
 
 ### List All
-![List All](./images/Listall.PNG)
+![List All](images/ListAll.PNG)
 
 ### Search by Name
-![Search by Name](./images/Searchname.PNG)
+![Search by Name](images/SearchName.PNG)
 
 ### Filter by Category
-![Filter by Category](./images/Category.PNG)
+![Filter by Category](images/Category.PNG)
 
 ### Filter by Rating
-![Filter by Rating](./images/Rating.PNG)
+![Filter by Rating](images/Rating.PNG)
 
 📄 Disclaimer
 
