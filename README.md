@@ -33,21 +33,29 @@ Key learning outcomes:
 
 ```plaintext
 CSE1325-ProjectOJ/
-├── bin/                      # Compiled .class files (ignored by .gitignore)
 ├── src/
-│   └── com/team1/directory/
-│       ├── Main.java         # Program entry point
-│       ├── Business.java     # Business model
-│       ├── Directory.java    # Core logic and search
-│       └── …                 # Additional helper classes
-├── businesses.csv            # Business data
-├── images/                   # Screenshots folder
-│   ├── Menu.PNG
-│   ├── Listall.PNG
-│   ├── Searchname.PNG
-│   ├── Category.PNG
-│   └── Rating.PNG
-└── README.md                 # This file
+│ └── main/
+│ ├── java/
+│ │ └── com/team1/directory/
+│ │ ├── Business.java
+│ │ ├── DirectoryManager.java
+│ │ └── Main.java
+│ └── resources/
+│ └── businesses.csv
+│
+├── docs/
+│ ├── UML_Class_Diagram.png # PlantUML-generated class diagram
+│ ├── Architecture_Diagram.png # MVC overview diagram
+│ └── directory_diagram.puml # PlantUML source
+│
+├── screenshots/
+│ ├── Category.png
+│ ├── Listall.png
+| ├── Menu.png
+| ├── Rating.png
+│ └── Searchname.png
+│
+├── README.md
 
 
 
@@ -58,19 +66,19 @@ CSE1325-ProjectOJ/
 ## 🖼️ Screenshots of Directory Functionality
 
 ### Menu
-![Menu](images/Menu.PNG)
+![Menu](screenshots/Menu.PNG)
 
 ### List All
-![List All](images/Listall.PNG)
+![List All](screenshots/Listall.PNG)
 
 ### Search by Name
-![Search by Name](images/Searchname.PNG)
+![Search by Name](screenshots/Searchname.PNG)
 
 ### Filter by Category
-![Filter by Category](https://github.com/MangakingO/CSE1325-ProjectOJ/blob/main/images/Category.PNG)
+![Filter by Category](screenshots/Category.PNG)
 
 ### Filter by Rating
-![Filter by Rating](images/Rating.PNG)
+![Filter by Rating](screenshots/Rating.PNG)
 
 📄 Disclaimer
 

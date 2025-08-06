@@ -1,0 +1,62 @@
+@startuml
+package com.team1.directory {
+
+    class Business {
+        - name : String
+        - address : String
+        - phone : String
+        - hours : String
+        - website : String
+        - category : String
+        - rating : double
+
+        + Business(name, address, phone, hours, website, category, rating)
+        + getName() : String
+        + getAddress() : String
+        + getPhone() : String
+        + getHours() : String
+        + getWebsite() : String
+        + getCategory() : String
+        + getRating() : double
+        + toString() : String
+    }
+
+    class Business.Builder {
+        - name : String
+        - address : String
+        - phone : String
+        - hours : String
+        - website : String
+        - category : String
+        - rating : double
+
+        + setName(name : String) : Builder
+        + setAddress(address : String) : Builder
+        + setPhone(phone : String) : Builder
+        + setHours(hours : String) : Builder
+        + setWebsite(website : String) : Builder
+        + setCategory(category : String) : Builder
+        + setRating(rating : double) : Builder
+        + build() : Business
+    }
+
+    class Directory {
+        - businesses : List<Business>
+        + loadFromCSV(fileName : String) : void
+        + searchByName(name : String) : List<Business>
+        + searchByCity(city : String) : List<Business>
+        + searchByCategory(category : String) : List<Business>
+        + searchByRating(rating : double) : List<Business>
+        + getAllBusinesses() : List<Business>
+    }
+
+    class Main {
+        + main(args : String[]) : void
+    }
+
+    Business.Builder ..> Business : builds
+    Directory "1" *-- "*" Business : contains
+    Main --> Directory : uses
+}
+
+@enduml
