@@ -71,6 +71,19 @@ CSE1325-ProjectOJ/
 │
 ├── README.md
 └── LICENSE
+
+```
+## 🚀 Compile & Run
+
+1. **Compile** all your Java sources into the `bin/` folder:
+   ```bash
+   javac -d bin src/main/java/com/team1/directory/*.java
+
+    Run the application from the compiled classes:
+
+    java -cp bin com.team1.directory.Main
+
+```
 ```
 
 ## 🖼️ Screenshots of Directory Functionality
