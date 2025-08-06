@@ -76,19 +76,20 @@ CSE1325-ProjectOJ/
 🖼️ Screenshots of Directory Functionality
 Menu
 
-Menu
-List All
+### Menu
+![Menu](screenshots/Menu.PNG)
 
-List All
-Search by Name
+### List All
+![List All](screenshots/Listall.PNG)
 
-Search by Name
-Filter by Category
+### Search by Name
+![Search by Name](screenshots/Searchname.PNG)
 
-Filter by Category
-Filter by Rating
+### Filter by Category
+![Filter by Category](screenshots/Category.PNG)
 
-Filter by Rating
+### Filter by Rating
+![Filter by Rating](screenshots/Rating.PNG)
 
 📄 Disclaimer
 This project was created by Oscar Barrios Jimenez and Jose Rojas for educational purposes as part of CSE1325 at the University of Texas at Arlington (UTA).
