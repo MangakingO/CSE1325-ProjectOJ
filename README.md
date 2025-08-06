@@ -73,7 +73,7 @@ CSE1325-ProjectOJ/
 └── LICENSE
 ```
 
-🖼️ Screenshots of Directory Functionality
+## 🖼️ Screenshots of Directory Functionality
 Menu
 
 ### Menu
