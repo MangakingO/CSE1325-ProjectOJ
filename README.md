@@ -74,7 +74,6 @@ CSE1325-ProjectOJ/
 ```
 
 ## 🖼️ Screenshots of Directory Functionality
-Menu
 
 ### Menu
 ![Menu](screenshots/Menu.PNG)
